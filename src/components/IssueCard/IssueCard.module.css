@@ -1,0 +1,25 @@
+.card {
+    flex-direction: column;
+    background-color: #242424;
+    border-radius: 8px;
+    height: 140px;
+    margin: 0 0.9rem 0.9rem 0.9rem;
+    padding: 0 8px 10px 5px;
+
+
+}
+.card p {
+    white-space: nowrap;
+    overflow:hidden !important;
+    text-overflow: ellipsis;
+}
+.card > * {
+    margin: 0;
+}
+.stack {
+    justify-content: space-between;
+}
+.stack > p {
+    font-size: 0.8em;
+}
+
