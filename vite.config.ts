@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
       react(),
   ],
-  base:"/github_explorer/",
+  base:"/explorer_github/",
   test :{
     globals:true,
     environment:"jsdom",
