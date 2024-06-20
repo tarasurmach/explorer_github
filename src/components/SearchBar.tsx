@@ -56,7 +56,7 @@ const SearchBar = () => {
     return (
         <Box width={500} height={30} margin={"1rem auto"} data-testid="searchbar">
             <HStack w={"inherit"} h={"inherit"} gap={0}>
-                <Input onKeyDown={handleKeyboardInput} value={searchQuery} onChange={handleInputChange} placeholder={"Enter repository URL..."} w={"inherit"} h={"inherit"} data-testid="searchinput"/>
+                <Input onKeyDown={handleKeyboardInput} value={searchQuery} onChange={handleInputChange} placeholder={"Search for a repository..."} w={"inherit"} h={"inherit"} data-testid="searchinput"/>
                 <Search2Icon onClick={handleSearch} ml={-25}  cursor={"pointer"} data-testid={"searchIcon"}/>
 
             </HStack>
